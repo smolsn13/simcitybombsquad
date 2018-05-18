@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sim City Bomb Squad</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="unexploded">
+
+    <div class="wirebox">
+      <div class="timerbox">
+        <p>0:00:30:000</p>
+      </div>
+      <div class="imagebox">
+        <img id="blue" src="img/uncut-blue-wire.png" />
+        <img id="green" src="img/uncut-green-wire.png" />
+        <img id="red" src="img/uncut-red-wire.png" />
+        <img id="white" src="img/uncut-white-wire.png" />
+        <img id="yellow" src="img/uncut-yellow-wire.png" />
+      </div>
+      <div class="buttonbox">
+        <button type="button" id="reset">Reset</button>
+      </div>
+    </div>
+
+    <audio id="explode" src="sounds/BldgExplode.wav"></audio>
+    <audio id="yay" src="sounds/CrowdYay.wav"></audio>
+    <audio id="buzz" src="sounds/Electricity.wav"></audio>
+    <audio id="siren" src="sounds/Siren.wav"></audio>
+    <audio id="success" src="sounds/success.ogg"></audio>
+
+    <script src="bomb.js"></script>
+  </body>
+</html>
